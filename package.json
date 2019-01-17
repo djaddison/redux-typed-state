@@ -1,0 +1,25 @@
+{
+  "name": "redux-typed-state",
+  "version": "1.0.0",
+  "description": "Typed redux factories to reduce boiler plate when developing typescript applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://djaddison@github.com/djaddison/redux-typed-state.git"
+  },
+  "bugs": {
+    "url": "https://github.com/djaddison/redux-typed-state/issues"
+  },
+  "homepage": "https://github.com/djaddison/redux-typed-state",
+  "author": "David Addison <djaddison.vcs@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "3.2.2"
+  }
+}
